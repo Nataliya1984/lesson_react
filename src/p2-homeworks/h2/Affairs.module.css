@@ -1,0 +1,17 @@
+.someClass {
+
+}
+
+.wrapper{
+    display: flex;
+}
+
+.blockPriority{
+    width: 100px;
+    padding: 10px;
+}
+
+.blockName{
+    width: 100px;
+    padding: 10px;
+}

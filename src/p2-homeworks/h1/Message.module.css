@@ -1,0 +1,143 @@
+.wrapper{
+    background-color: #93d978;
+    display:flex
+}
+.chatBody {
+    padding: 5px;
+    margin-left: 10px;
+}
+.messages {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+
+.message {
+    position: relative;
+    max-width: 420px;
+    background-color: #2c2727;
+    border-radius: 6px;
+}
+
+.droplet:after {
+    position: absolute;
+    content: '';
+    bottom:-6px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    clip-path: url(#left-droplet);
+    background-color: #2c2727;
+}
+
+.messageAva img{
+        width: 50px;
+        border-radius: 55px;
+        margin-top: 55px;
+        margin-left: 20px;
+    }
+
+.wrapperMessage{
+    display: flex;
+    margin: 15px;
+}
+
+.txt .txtName{
+color:blue;
+}
+
+.txt .txtMessage{
+    color: white;
+}
+
+
+.messageText{
+
+}
+
+.messageTime{
+    align-self: flex-end;
+    margin: 15px;
+    color: #3f643f;
+}
+
+.message.my-message.droplet:before {
+    right: -8px;
+    left: initial;
+    box-shadow: 0px 1px 1px 1px rgba(93,196,82,.5);
+}
+.message.my-message.droplet:after {
+    right: -10px;
+    left: initial;
+    clip-path: url(#right-droplet);
+}
+
+
+/*.wrapper{
+    background-color: burlywood;
+    display:flex
+}*/
+
+/*.ava img{*/
+/*    width: 75px;*/
+/*    border-radius: 55px;*/
+/*    margin-top: 50px;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*.bubble{*/
+/*    background-color: #666;*/
+/*    position: relative;*/
+/*    width: 30%;*/
+/*    height: 120px;*/
+/*    border: 1px solid #666;*/
+/*    border-top-left-radius: 30px;*/
+/*    border-top-right-radius: 30px;*/
+/*    border-bottom-right-radius: 30px;*/
+/*    -webkit-box-shadow: 2px 2px 4px #888;*/
+/*    -moz-box-shadow: 2px 2px 4px #888;*/
+/*    box-shadow: 2px 2px 4px #888;*/
+/*    margin: 20px;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+
+/*.bubble:after{*/
+/*    content: ' ';*/
+/*    position: absolute;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    left: -20px;*/
+/*    top: 101px;*/
+/*    border: 10px solid;*/
+/*    border-color:  transparent #666 #666 transparent;*/
+/*}*/
+
+/*.name{*/
+/*    padding-left: 30px;*/
+/*    font-size: 18px;*/
+/*    color: #270fb7;*/
+/*}*/
+
+/*.message{*/
+/*    padding-left: 30px;*/
+/*    font-size: 18px;*/
+/*    color: white;*/
+/*}*/
+
+/*.txt{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.timestamp {*/
+/*    align-self: flex-end;*/
+/*    padding: 10px;*/
+/*    color: #273c27;*/
+/*}*/
+
+
+
+
+
