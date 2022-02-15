@@ -15,10 +15,10 @@ function Affair(props: AffairPropsType) {
     return (
         <div className={classes.wrapper}>
 
-            <div className={classes.blockName}>{props.affair.name}</div>
-            <div className={classes.blockPriority}>{props.affair.priority}</div>
+            <div className={`${classes.blockName} ${classes.styled}`}>{props.affair.name}</div>
+            <div className={`${classes.blockPriority} ${classes.styled}`}>{props.affair.priority}</div>
 
-            <button onClick={deleteCallback}>X</button>
+            <button onClick={deleteCallback} className={`${classes.styled} ${classes.delete}`}>X</button>
         </div>
     )
 }
