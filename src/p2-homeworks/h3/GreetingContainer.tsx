@@ -23,24 +23,19 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
 
     const onKeyPressNameCallback = (e: React.KeyboardEvent<HTMLInputElement>) => {
+       setError('')
         e.key === 'Enter' && addUser();
     }
 
     const addUser = () => {
-        if (name.trim()) {
+        if(name.trim() !== ''){
             addUserCallback(name);
             alert(`Hello ${name} !`) // need to fix
-            setName('')
-        } else {
-            setError(' Error. Enter your name ');
-
-
+            setName('');
+        }else {
+           setError('Error, fill in the input field')
         }
 
-        // addUserCallback(name);
-        // alert(`Hello ${name} !`) // need to fix
-        // setName('')
-        // console.log(name)
     }
 
     const totalUsers = users.length // need to fix
