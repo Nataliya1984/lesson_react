@@ -1,8 +1,7 @@
 .someClass {
     color: red;
     position: absolute;
-    top: 666px;
-    left: 50px;
+   padding-left: 15px;
 }
 
 .error {
@@ -11,7 +10,7 @@
 
 input {
     outline: none;
-    margin: 15px;
+    margin: 15px 15px 0 15px;
 }
 
 .container {
@@ -40,4 +39,8 @@ button:hover{
 
 .counter {
     padding-left: 30px;
+}
+
+.wrapper{
+    height: 70px;
 }

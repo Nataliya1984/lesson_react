@@ -1,6 +1,3 @@
-.someClass {
-
-}
 .body {
     background-color: #dec7c7;
     padding: 10px;
@@ -8,6 +5,8 @@
 
 .wrapper{
     display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 
 .blockPriority{
@@ -54,4 +53,8 @@
 
 .styled.delete{
     background-color: red;
+}
+
+.blockBtn{
+    padding-left: 20px;
 }

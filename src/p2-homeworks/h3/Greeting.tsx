@@ -23,7 +23,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                    onChange={setNameCallback}
                    className={inputClass}
                    onKeyPress={onKeyPressNameCallback}/>
-            {error && <span className={s.someClass}>{error}</span>}
+            {error && <div className={s.someClass}>{error}</div>}
             <button onClick={addUser}>add</button>
             <span className={s.counter}>{totalUsers}</span>
         </div>

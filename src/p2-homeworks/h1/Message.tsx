@@ -13,6 +13,7 @@ type MessagePropsType = {
 function Message(props: MessagePropsType) {
     return (
         <div className={classes.wrapper}>
+           
             <div className={classes.messageAva}>
                 {<img src={props.avatar}/>}
             </div>
@@ -31,6 +32,8 @@ function Message(props: MessagePropsType) {
                     </div>
                 </div>
             </section>
+            
+            
             <svg height="0" width="0">
                 <defs>
                     <clipPath id="left-droplet">

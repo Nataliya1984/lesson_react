@@ -18,7 +18,7 @@
     background: #8d1c1c;
 }
 
-button {
+.button {
     position: relative;
     display: inline-block;
     width: 100px;
@@ -35,11 +35,11 @@ button {
     margin: 10px;
     border-color: white;
 }
-button:hover {
+.button:hover {
     animation: animate 8s linear infinite;
 }
 
-button:before {
+.button:before {
     content: "";
     position: absolute;
     top: -5px;
@@ -54,14 +54,14 @@ button:before {
     transition: .5s;
 }
 
-button:hover:before {
+.button:hover:before {
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;
 }
 
 
-button:disabled{
+.button:disabled{
     z-index: -1;
 }
 

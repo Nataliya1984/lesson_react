@@ -1,6 +1,7 @@
 .wrapper{
     background-color: #93d978;
-    display:flex
+    display:flex;
+    padding-left:20px;
 }
 .chatBody {
     padding: 5px;
