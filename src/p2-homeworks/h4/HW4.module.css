@@ -1,5 +1,10 @@
 .blue {
-    border-bottom: 5px solid blue;
+    /*border: 3px solid #de51ac;*/
+    outline: none;
+    border-color: white;
+    color: #2c2727;
+    /*border-bottom: 5px solid #da2424;*/
+    background: linear-gradient(to top left, powderblue, pink);
 }
 
 .column {
