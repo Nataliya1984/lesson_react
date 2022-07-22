@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/lesson_react/static/css/main.a39a8616.css",
+    "main.js": "/lesson_react/static/js/main.6ce42243.js",
+    "static/media/kisspng-cat-mouse-dog-toy-pet-cute-cat-5aa2b189733452.png": "/lesson_react/static/media/kisspng-cat-mouse-dog-toy-pet-cute-cat-5aa2b189733452.7906932015206117214719.2ea17b04f0d46638984a.png",
+    "index.html": "/lesson_react/index.html",
+    "main.a39a8616.css.map": "/lesson_react/static/css/main.a39a8616.css.map",
+    "main.6ce42243.js.map": "/lesson_react/static/js/main.6ce42243.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a39a8616.css",
+    "static/js/main.6ce42243.js"
+  ]
+}
