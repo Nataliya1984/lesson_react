@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    color: #03a9f4;
+    margin: 5px;
+}
+
+a:hover{
+    color: #93d978;
+}
+
+.activeLink{
+    color: red;
+}
+
+.block{
+    width: 21px;
+    height: 21px;
+    margin: 10px;
+    background: #61dafb;
+}
+
+.header{
+    display: flex;
+    width: 350px;
+    transition-duration: 10000ms;
+    transform: translate(-230px);
+    padding: 10px;
+}
+.header:hover{
+    transition-duration: 5000ms;
+    transform: translate(0);
+}
+

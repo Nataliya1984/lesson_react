@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-image: url('./common/c3-SuperCheckbox/check.png'); */
 }
 
 .testSpanError {
